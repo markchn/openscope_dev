@@ -1,0 +1,16 @@
+{
+    "icao": "VJC",
+    "name": "Vietjet Air",
+    "callsign": {
+        "name": "Vietjet",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 13],
+            ["A321", 43]
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "icao": "CYZ",
+    "name": "China Postal Airlines",
+    "callsign": {
+        "name": "China Post",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B733", 10],
+            ["B734", 5],
+            ["B738", 3],
+            ["B752", 6]
+        ]
+    }
+}

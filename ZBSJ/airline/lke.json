@@ -1,0 +1,18 @@
+{
+    "icao": "LKE",
+    "name": "Lucky Air",
+    "callsign": {
+        "name": "Lucky Air",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 12],
+            ["A333", 4],
+            ["B737", 8],
+            ["B738", 20]
+        ]
+    }
+}

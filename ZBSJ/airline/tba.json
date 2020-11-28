@@ -1,0 +1,17 @@
+{
+    "icao": "TBA",
+    "name": "Tibet Airlines",
+    "callsign": {
+        "name": "Tibet",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 24],
+            ["A320", 6],
+            ["A332", 5]
+        ]
+    }
+}

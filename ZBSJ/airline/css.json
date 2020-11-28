@@ -1,0 +1,19 @@
+{
+    "icao": "CSS",
+    "name": "SF Airlines",
+    "callsign": {
+        "name": "Shun Feng",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B733", 14],
+            ["B734", 3],
+            ["B744", 2],
+            ["B752", 33],
+            ["B763", 8]
+        ]
+    }
+}

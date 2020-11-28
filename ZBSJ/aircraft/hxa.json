@@ -1,0 +1,18 @@
+{
+    "icao": "HXA",
+    "name": "China Express Airlines",
+    "callsign": {
+        "name": "China Express",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 23],
+            ["AJ27", 1],
+            ["CRJ2", 2],
+            ["CRJ9", 37]
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "icao": "LHA",
+    "name": "Longhao Airlines",
+    "callsign": {
+        "name": "Air Canton",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B733", 4],
+            ["B734", 1]
+        ]
+    }
+}

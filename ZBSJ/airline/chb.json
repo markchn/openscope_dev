@@ -1,0 +1,16 @@
+{
+    "icao": "CHB",
+    "name": "West Air",
+    "callsign": {
+        "name": "West China",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 4],
+            ["A320", 28]
+        ]
+    }
+}

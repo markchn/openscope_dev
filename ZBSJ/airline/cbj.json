@@ -1,0 +1,19 @@
+{
+    "icao": "CBJ",
+    "name": "Beijing Capital Airlines",
+    "callsign": {
+        "name": "Capital Jet",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 7],
+            ["A320", 32],
+            ["A321", 19],
+            ["A332", 6],
+            ["A333", 3]
+        ]
+    }
+}

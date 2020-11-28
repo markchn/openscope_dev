@@ -1,0 +1,16 @@
+{
+    "icao": "KNA",
+    "name": "Kunming Air",
+    "callsign": {
+        "name": "Kunming Air",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B737", 9],
+            ["B738", 19]
+        ]
+    }
+}

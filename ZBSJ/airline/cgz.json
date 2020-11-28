@@ -1,0 +1,16 @@
+{
+    "icao": "CGZ",
+    "name": "Colorful Guizhou Airlines",
+    "callsign": {
+        "name": "Colorful",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 3],
+            ["E190", 9]
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "icao": "CGN",
+    "name": "Air Chang'An",
+    "callsign": {
+        "name": "Chang An",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B738", 10]
+        ]
+    }
+}

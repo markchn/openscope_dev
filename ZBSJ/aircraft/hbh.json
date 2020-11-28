@@ -1,0 +1,16 @@
+{
+    "icao": "hbh",
+    "name": "Hebei Airlines",
+    "callsign": {
+        "name": "Hebei Air",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B738", 23],
+            ["E190", 6]
+        ]
+    }
+}

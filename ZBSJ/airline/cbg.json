@@ -1,0 +1,16 @@
+{
+    "icao": "CBG",
+    "name": "Guangxi Beibu Gulf Airlines",
+    "callsign": {
+        "name": "Green City",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 10],
+            ["E190", 9]
+        ]
+    }
+}

@@ -1,0 +1,429 @@
+{
+    "airac": 1804,
+    "radio": {
+        "twr": "Shijiazhuang Tower",
+        "app": "Shijiazhuang Approach",
+        "dep": "Shijiazhuang Departure"
+    },
+    "icao": "ZBSJ",
+    "iata": "SJW",
+    "magnetic_north": -5,
+    "ctr_radius": 70,
+    "ctr_ceiling": 19700,
+    "initial_alt": 19700,
+    "position": ["N38d16.9", "E114d41.9", "233ft"],
+    "rangeRings": {
+        "enabled": true,
+        "center": ["N38d16.9", "E114d41.9"],
+        "radius_nm": 5.0
+    },
+    "has_terrain": true,
+    "wind": {
+        "angle": 180,
+        "speed": 9
+    },
+    "arrivalRunway": "15",
+    "departureRunway": "15",
+    "defaultMaps": ["Base Map"],
+    "airspace": [
+        {
+            "floor": 0,
+            "ceiling": 197,
+            "airspace_class": "B",
+            "poly": [
+                ["N38d51m23", "E113d50m43"],
+                ["N38d39m05.8", "E113d56m19.9"],
+                ["N38d22m55.3", "E114d03m20.2"],
+                ["N38d19m00", "E114d05m00"],
+                ["N38d01m45.5", "E114d08m41.6"],
+                ["N37d29m43", "E114d14m25"],
+                ["N37d29m42.0", "E114d41m21.9"],
+                ["N37d29m40.0", "E114d48m41.3"],
+                ["N37d29m47", "E115d14m53"],
+                ["N37d46m35", "E115d26m50"],
+                ["N38d20m48", "E115d25m09"],
+                ["N38d32m45", "E115d04m47"],
+                ["N38d36m40.2", "E115d02m58.2"],
+                ["N38d45m49.6", "E114d58m34.3"],
+                ["N38d55m17.7", "E114d53m50.2"],
+                ["N39d07m27", "E114d48m06"],
+                ["N39d08m36", "E114d35m54"]
+            ]
+        }
+    ],
+    "fixes": {
+        "SJ911": ["N38d34m09", "E114d26m40"],
+        "SJ913": ["N38d22m57", "E114d36m51"],
+        "ADBES": ["N38d25m11", "E114d02m20"],
+        "ALBOD": ["N38d05m10", "E115d18m04"],
+        "AREKU": ["N38d37m44", "E115d02m22"],
+        "ATRAR": ["N38d17m40", "E115d05m00"],
+        "AVLIS": ["N37d29m48", "E115d09m13"],
+        "BELAX": ["N38d43m12", "E115d31m35"],
+        "BONLU": ["N38d35m41", "E114d31m10"],
+        "DUBIX": ["N38d19m40", "E115d12m20"],
+        "ENTUD": ["N38d19m28", "E114d49m52"],
+        "IDGIS": ["N38d45m32", "E114d58m40"],
+        "IGDID": ["N37d48m37", "E115d20m24"],
+        "LIKTI": ["N37d57m44", "E115d26m16"],
+        "OSVUL": ["N38d30m13", "E114d41m33"],
+        "PEGSO": ["N38d56m41", "E115d30m19"],
+        "PINAP": ["N38d25m56", "E114d44m53"],
+        "REVSI": ["N38d37m26", "E114d36m59"],
+        "SAKRI": ["N38d47m23", "E114d28m12"],
+        "TONOV": ["N38d11m20", "E114d06m24"],
+        "UKMIS": ["N38d07m05", "E115d25m51"],
+        "UNROD": ["N38d34m09", "E114d52m23"],
+        "URKED": ["N38d11m00", "E115d11m42"],
+        "VADKA": ["N39d04m06", "E114d23m58"],
+        "VEMOT": ["N38d07m36", "E114d49m18"],
+        "FL": ["N38d14m54", "E114d53m18"],
+        "OC": ["N38d27m18", "E114d33m18"],
+        "SJW": ["N38d16m48", "E114d41m54"]
+    },
+    "runways":[
+        {
+            "name": ["15", "33"],
+            "end": [
+                [38.293650, 114.686720, "233ft"],
+                [38.267856, 114.707669, "221ft"]
+            ],
+            "ils": [true, true]
+        }
+    ],
+    "sids": {
+        "ADBES9ZD": {
+            "icao": "ADBES",
+            "name": "ADBES",
+            "altitude": 13800,
+            "rwy": {
+                "ZBSJ15": [["ENTUD", "A40+|S205-"], ["PINAP", "A60+"], ["OSVUL", "A69+"] , ["REVSI", "A89+"], ["SJ911", "A98+"]],
+                "ZBSJ33": [["OC", "A59+|S205-"], ["SJ911", "A79+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "ADBES": [["ADBES", "A137+"]]
+            },
+            "draw": [["ENTUD","PINAP","OSVUL","REVSI","ADBES"],
+                     ["OC","SJ911","ADBES"]]
+        },
+        "BELAX9ZD": {
+            "icao": "BELAX",
+            "name": "BELAX",
+            "altitude": 12000,
+            "rwy": {
+                "ZBSJ15": [["ENTUD", "A40+|S205-"], ["PINAP", "A60+"], ["OSVUL", "A69+"] , ["UNROD", "A89+"], ["AREKU", "A118"]],
+                "ZBSJ33": [["OC", "A59+|S205-"], ["OSVUL", "A69+"] , ["UNROD", "A89+"], ["AREKU", "A118"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "BELAX": [["BELAX", "A118+"]]
+            },
+            "draw": [["ENTUD","PINAP","OSVUL","UNROD","AREKU","BELAX"],
+                     ["OC","OSVUL","UNROD","AREKU","BELAX"]]
+        },       
+        "UKMIS9ZD": {
+            "icao": "UKMIS",
+            "name": "UKMIS",
+            "altitude": 12000,
+            "rwy": {
+                "ZBSJ15": [["FL", "A30+|S205-"], ["DUBIX", "A69+"]],
+                "ZBSJ33": [["OC", "A59+|S205-"], ["OSVUL", "A69+"], ["UNROD", "A89+"], ["DUBIX", "A118+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "UKMIS": [["UKMIS", "A118+"]]
+            },
+            "draw": [["FL","DUBIX","UKMIS"],
+                     ["OC","OSVUL","UNROD","DUBIX","UKMIS"]]
+        },
+        "VADKA9ZD": {
+            "icao": "VADKA",
+            "name": "VADKA",
+            "altitude": 13800,
+            "rwy": {
+                "ZBSJ15": [["ENTUD", "A40+|S205-"], ["PINAP", "A60+"], ["OSVUL", "A69+"] , ["REVSI", "A89+"], ["SAKRI", "A118"]],
+                "ZBSJ33": [["OC", "A59+|S205-"], ["BONLU", "A69+"], ["SAKRI", "A79+"]]
+
+            },
+            "body": [],
+            "exitPoints": {
+                "VADKA": [["VADKA", "A137+"]]
+            },
+            "draw": [["ENTUD","PINAP","OSVUL","REVSI","SAKRI","VADKA"],
+                     ["OC","BONLU","SAKRI","VADKA"]]
+        }
+    },
+    "stars": {
+        "AVLIS9ZA": {
+            "icao": "AVLIS",
+            "name": "AVLIS",
+            "entryPoints": {
+                "AVLIS": ["AVLIS"]
+            },
+            "body": [],
+            "rwy": {
+                "ZBSJ15": [["IGDID", "A177"], ["ALBOD", "A128"], ["ATRAR", "A98"], ["UNROD", "A49"], ["OSVUL", "A39"], ["OC", "A30|S180-"]],
+                "ZBSJ33": [["IGDID", "A148"], ["ALBOD", "A98"], ["URKED", "A69"], ["FL", "A30|S185-"]]
+            },
+            "draw": [
+                ["AVLIS*","IGDID","ALBOD","ATRAR","UNROD","OSVUL","OC"],
+                ["AVLIS*","IGDID","ALBOD","URKED","FL"],
+                ["AVLIS*","VEMOT","SJW"]
+            ]
+        },
+        "LIKTI9ZA": {
+            "icao": "LIKTI",
+            "name": "LIKTI",
+            "entryPoints": {
+                "LIKTI": ["LIKTI"]
+            },
+            "body": [],
+            "rwy": {
+                "ZBSJ15": [["ALBOD", "A128"], ["ATRAR", "A98"], ["UNROD", "A49"], ["OSVUL", "A39"], ["OC", "A30|S180-"]],
+                "ZBSJ33": [["ALBOD", "A98"], ["URKED", "A69"], ["FL", "A30|S185-"]]
+            },
+            "draw": [
+                ["LIKTI*","ALBOD","ATRAR","UNROD","OSVUL","OC"],
+                ["LIKTI*","ALBOD","URKED","FL"],
+                ["LIKTI*","VEMOT","SJW"]
+            ]
+        },        
+        "PEGSO9ZA": {
+            "icao": "PEGSO",
+            "name": "PEGSO",
+            "entryPoints": {
+                "PEGSO": ["PEGSO"]
+            },
+            "body": [],
+            "rwy": {
+                "ZBSJ15": [["IDGIS", "A98+"], ["BONLU", "A39"], ["OC", "A30|S180-"]],
+                "ZBSJ33": [["IDGIS", "A98+"], ["REVSI", "A49"], ["OSVUL", "A39+"], ["PINAP", "A39+"], ["ENTUD", "A39"], ["FL", "A30|S185-"]]
+            },
+            "draw": [
+                ["PEGSO*","IDGIS","BONLU","OC"],
+                ["PEGSO*","IDGIS","REVSI","OSVUL","PINAP","ENTUD","FL"]
+            ]
+        },    
+        "TONOV9ZA": {
+            "icao": "TONOV",
+            "name": "TONOV",
+            "entryPoints": {
+                "TONOV": ["TONOV"]
+            },
+            "body": [],
+            "rwy": {
+                "ZBSJ15": [["OC", "A30|S180-"]],
+                "ZBSJ33": [["SJ913", "A49"], ["PINAP", "A39+"], ["ENTUD", "A39"], ["FL", "A30|S185-"]]
+            },
+            "draw": [
+                ["TONOV*","OC"],
+                ["TONOV*","SJ913","PINAP","ENTUD","FL"]
+            ]
+        },
+        "VADKA9ZA": {
+            "icao": "VADKA",
+            "name": "VADKA",
+            "entryPoints": {
+                "VADKA": ["VADKA"]
+            },
+            "body": [],
+            "rwy": {
+                "ZBSJ15": [["SAKRI", "A59"], ["BONLU", "A39"], ["OC", "A30|S180-"]],
+                "ZBSJ33": [["SAKRI", "A59"], ["REVSI", "A49"], ["OSVUL", "A39+"], ["PINAP", "A39+"], ["ENTUD", "A39"], ["FL", "A30|S185-"]]
+            },
+            "draw": [
+                ["VADKA*","SAKRI","BONLU","OC"],
+                ["VADKA*","SAKRI","REVSI","OSVUL","PINAP","ENTUD","FL"]
+            ]
+        }
+    },
+    "spawnPatterns": [
+        // Departures
+        {
+            "origin": "ZBSJ",
+            "destination": "",
+            "category": "departure",
+            "route": "ZBSJ.ADBES9ZD.ADBES",
+            "altitude": "",
+            "speed": "",
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["hbh", 51],
+                ["cqh", 46],
+                ["cbj", 14],
+                ["cua", 11],
+                ["chh", 15],
+                ["csn", 5],
+                ["csc", 10],
+                ["czh", 2],
+                ["cca", 4],
+                ["ces", 2],
+                ["lke", 4],
+                ["chb", 1],
+                ["cgz", 2],
+                ["tba", 2],
+                ["hxa", 2],
+                ["cdg", 6],
+                ["oka", 2],
+                ["uea", 6],
+                ["cgn", 2],
+                ["joy", 2],
+                ["kna", 1],
+                ["cdc", 2],
+                ["cbg", 1],
+                ["css", 1],
+                ["cyz", 2],
+                ["jja", 2],
+                ["vjc", 1],
+                ["lha", 1]
+            ]
+        },
+        {
+            "origin": "ZBSJ",
+            "destination": "",
+            "category": "departure",
+            "route": "ZBSJ.BELAX9ZD.BELAX",
+            "altitude": "",
+            "speed": "",
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "ZBSJ",
+            "destination": "",
+            "category": "departure",
+            "route": "ZBSJ.UKMIS9ZD.UKMIS",
+            "altitude": "",
+            "speed": "",
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "ZBSJ",
+            "destination": "",
+            "category": "departure",
+            "route": "ZBSJ.VADKA9ZD.VADKA",
+            "altitude": "",
+            "speed": "",
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        // Arrivals
+        {
+            "origin": "",
+            "destination": "ZBSJ",
+            "category": "arrival",
+            "route": "AVLIS.AVLIS9ZA.ZBSJ",
+            "altitude": [18000, 25000],
+            "speed": 320,
+            "method": "random",
+            "rate": 2,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "",
+            "destination": "ZBSJ",
+            "category": "arrival",
+            "route": "LIKTI.LIKTI9ZA.ZBSJ",
+            "altitude": [18000, 25000],
+            "speed": 320,
+            "method": "random",
+            "rate": 5,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "",
+            "destination": "ZBSJ",
+            "category": "arrival",
+            "route": "PEGSO.PEGSO9ZA.ZBSJ",
+            "altitude": [18000, 25000],
+            "speed": 320,
+            "method": "random",
+            "rate": 5,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "",
+            "destination": "ZBSJ",
+            "category": "arrival",
+            "route": "TONOV.TONOV9ZA.ZBSJ",
+            "altitude": [18000, 25000],
+            "speed": 320,
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+        {
+            "origin": "",
+            "destination": "ZBSJ",
+            "category": "arrival",
+            "route": "VADKA.VADKA9ZA.ZBSJ",
+            "altitude": [18000, 25000],
+            "speed": 320,
+            "method": "random",
+            "rate": 3,
+            "airlines": [
+                ["aal", 4],
+                ["aca", 1],
+                ["asa", 3]
+            ]
+        },
+    ],
+    "maps": [
+        {
+            "name": "Base Map",
+            "lines": [
+                ["N38d51m23", "E113d50m43", "N38d39m05.8", "E113d56m19.9"],
+                ["N38d39m05.8", "E113d56m19.9", "N38d22m55.3", "E114d03m20.2"],
+                ["N38d22m55.3", "E114d03m20.2", "N38d19m00", "E114d05m00"],
+                ["N38d19m00", "E114d05m00", "N38d01m45.5", "E114d08m41.6"],
+                ["N38d01m45.5", "E114d08m41.6", "N37d29m43", "E114d14m25"],
+                ["N37d29m43", "E114d14m25", "N37d29m42.0", "E114d41m21.9"],
+                ["N37d29m42.0", "E114d41m21.9", "N37d29m40.0", "E114d48m41.3"],
+                ["N37d29m40.0", "E114d48m41.3", "N37d29m47", "E115d14m53"],
+                ["N37d29m47", "E115d14m53", "N37d46m35", "E115d26m50"],
+                ["N37d46m35", "E115d26m50", "N38d20m48", "E115d25m09"],
+                ["N38d20m48", "E115d25m09", "N38d32m45", "E115d04m47"],
+                ["N38d32m45", "E115d04m47", "N38d36m40.2", "E115d02m58.2"],
+                ["N38d36m40.2", "E115d02m58.2", "N38d45m49.6", "E114d58m34.3"],
+                ["N38d45m49.6", "E114d58m34.3", "N38d55m17.7", "E114d53m50.2"],
+                ["N38d55m17.7", "E114d53m50.2", "N39d07m27", "E114d48m06"],
+                ["N39d07m27", "E114d48m06", "N39d08m36", "E114d35m54"],
+                ["N39d08m36", "E114d35m54", "N38d51m23", "E113d50m43"]
+            ]
+        }
+    ]
+}

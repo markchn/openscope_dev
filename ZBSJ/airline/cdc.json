@@ -1,0 +1,16 @@
+{
+    "icao": "CDC",
+    "name": "Loong Air",
+    "callsign": {
+        "name": "Gualong",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A320", 51],
+            ["B733", 3]
+        ]
+    }
+}

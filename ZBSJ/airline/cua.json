@@ -1,0 +1,16 @@
+{
+    "icao": "CUA",
+    "name": "China United Airlines",
+    "callsign": {
+        "name": "China United",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B737", 8],
+            ["B738", 45]
+        ]
+    }
+}

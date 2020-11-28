@@ -1,0 +1,16 @@
+{
+    "icao": "CGH",
+    "name": "Air Guilin",
+    "callsign": {
+        "name": "Welkin",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 3],
+            ["A320", 8]
+        ]
+    }
+}

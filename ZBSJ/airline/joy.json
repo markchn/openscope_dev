@@ -1,0 +1,15 @@
+{
+    "icao": "JOY",
+    "name": "Joy Air",
+    "callsign": {
+        "name": "Joy Air",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B738", 1]
+        ]
+    }
+}

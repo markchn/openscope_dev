@@ -1,0 +1,16 @@
+{
+    "icao": "OKA",
+    "name": "Okay Airways",
+    "callsign": {
+        "name": "Okay Jet",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["B738", 19],
+            ["B739", 6]
+        ]
+    }
+}

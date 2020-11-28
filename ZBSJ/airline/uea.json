@@ -1,0 +1,17 @@
+{
+    "icao": "UEA",
+    "name": "Chengdu Airlines",
+    "callsign": {
+        "name": "United Eagle",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["AJ27", 20],
+            ["A319", 4],
+            ["A320", 32]
+        ]
+    }
+}

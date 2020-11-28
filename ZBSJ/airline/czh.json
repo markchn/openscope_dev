@@ -1,0 +1,19 @@
+{
+    "icao": "CZH",
+    "name": "Shenzhen Airlines",
+    "callsign": {
+        "name": "Shenzhen Air",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 8],
+            ["A320", 90],
+            ["A333", 6],
+            ["B738", 76],
+            ["B739", 5]
+        ]
+    }
+}
