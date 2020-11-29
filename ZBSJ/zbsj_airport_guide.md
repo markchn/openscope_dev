@@ -10,7 +10,7 @@ Opened in 1995, Shijiazhuang Zhengding International Airport (IATA: SJW, ICAO: Z
 
 |Callsign               | Frequency (MHz)      | Hours of operation |
 |-----------------------|:--------------------:|:------------------:|
-|"Shijiazhuang GROUND"  | 121.6                |                    |
+|"Shijiazhuang GROUND"  | 121.6                | HO                 |
 |"Shijiazhuang TOWER"   | 118.35(123.65)       | H24                |
 |"Shijiazhuang APPROACH"| 120.450(124.75) AP01 | H24                | 
 |"Shijiazhuang APPROACH"| 119.125(124.75) AP02 | BY ATC             |
